@@ -25,11 +25,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { MapComponent } from './map/map.component';
+import { TestModule } from './test/test.module'; // Import the TestModule
 
 @NgModule({
-  declarations: [AppComponent, MapComponent],
-  imports: [BrowserModule],
+  declarations: [AppComponent],
+  imports: [BrowserModule, TestModule], // Add TestModule to the imports
   providers: [],
   bootstrap: [AppComponent],
 })
