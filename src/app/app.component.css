@@ -1,0 +1,34 @@
+
+.content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-column {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .svg-column {
+    width: 1000px;
+    display: flex;
+  }
+
+  svg {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  svg title {
+    display: none;
+  }
+
+  .my-svg path:hover {
+    stroke: white !important;
+  }
+  
+  ul, li {
+    list-style-type: none;
+    text-align: left;
+  }
